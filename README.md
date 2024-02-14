@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nextCartesianIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@deno/mod.js';
+import nextCartesianIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@v0.2.0-deno/mod.js';
 ```
 
 #### nextCartesianIndex( shape, order, idx, dim )
@@ -147,7 +147,7 @@ The function accepts the following arguments:
 ```javascript
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@deno/mod.js';
-import nextCartesianIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@deno/mod.js';
+import nextCartesianIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@v0.2.0-deno/mod.js';
 
 // Create an ndarray:
 var x = array( zeroTo( 27 ), {
