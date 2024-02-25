@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import nextCartesianIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-next-cartesian-index/tags). For example,
+
+```javascript
 import nextCartesianIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@v0.2.1-esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@esm/index.mjs';
 ```
 
 #### nextCartesianIndex( shape, order, idx, dim )
@@ -152,7 +157,7 @@ The function accepts the following arguments:
 
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 import zeroTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@esm/index.mjs';
-import nextCartesianIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@v0.2.1-esm/index.mjs';
+import nextCartesianIndex from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-next-cartesian-index@esm/index.mjs';
 
 // Create an ndarray:
 var x = array( zeroTo( 27 ), {
